@@ -24,7 +24,7 @@ const SubmitButton = ({ form }) => {
     }, [values]);
     return (
       <Button type="primary" htmlType="submit" disabled={!submittable} >
-        Submit
+        Login
       </Button>
     );
   };
